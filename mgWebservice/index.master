@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb">
+<head>
+    <title>Election Count 2015</title>
+    <meta name="description" content="Box Arrival Board" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="results.css" rel="stylesheet" />
+    <!--[if lt IE 9]>
+        <link href="assets/css/ie8.css" rel="stylesheet" />
+        <script src="assets/js/html5shiv.js"></script>
+        <script src="assets/js/respond.min.js"></script>
+        <![endif]-->
+    <script src="assets/js/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="assets/js/jquery-ui-1.10.3/ui/jquery-ui.js" type="text/javascript"></script>
+    <script src="assets/js/bootstrap.js" type="text/javascript"></script>
+    <script src="assets/js/jscriptutils.js" type="text/javascript"></script>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+</head>
+<body id="body">
+
+
+
+
+
+    <div id="page">
+        <h1 class="hidefromview">West Berkshire Council</h1>
+
+        <nav:toputilnav ID="TopUtils" runat="server" />
+
+
+
+
+        <div id="content" class="container">
+
+
+
+
+
+            <asp:ContentPlaceHolder ID="PageContentHolder" runat="server">
+            </asp:ContentPlaceHolder>
+              </div>
+            <nav:pageinfobar runat="server" />
+            <div id="footer" class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div id="footer_logoimage">
+                        </div>
+                         <%if(Request.QueryString["display"] == null){%>
+                        <br id="footer_contactdetailsspacer" style="clear: both" />
+                        <nav:footercontactdetails runat="server" />
+                    </div>
+                    <br style="clear: both" />
+
+                    <div id="footer_nav">
+                        <nav:footerutilnav ID="FooterUtil" runat="server" />
+                    </div>
+                    <%} %>
+                </div>
+            </div>
+
+
+
+      
+
+
+    </div>
+</body>
+</html>
+
