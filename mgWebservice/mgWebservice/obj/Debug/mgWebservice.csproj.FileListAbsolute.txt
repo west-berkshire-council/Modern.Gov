@@ -1,0 +1,11 @@
+C:\Projects\mgWebservice\mgWebservice\bin\mgWebservice.dll
+C:\Projects\mgWebservice\mgWebservice\bin\mgWebservice.pdb
+C:\Projects\mgWebservice\mgWebservice\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\mgWebservice\mgWebservice\obj\Debug\mgWebservice.dll
+C:\Projects\mgWebservice\mgWebservice\obj\Debug\mgWebservice.pdb
+C:\Projects\WBC\mgWebservice\mgWebservice\bin\mgWebservice.dll.config
+C:\Projects\WBC\mgWebservice\mgWebservice\bin\mgWebservice.dll
+C:\Projects\WBC\mgWebservice\mgWebservice\bin\mgWebservice.pdb
+C:\Projects\WBC\mgWebservice\mgWebservice\obj\Debug\mgWebservice.csprojResolveAssemblyReference.cache
+C:\Projects\WBC\mgWebservice\mgWebservice\obj\Debug\mgWebservice.dll
+C:\Projects\WBC\mgWebservice\mgWebservice\obj\Debug\mgWebservice.pdb

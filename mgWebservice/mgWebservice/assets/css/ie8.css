@@ -1,0 +1,105 @@
+body
+{
+    padding-top:0;    
+}
+.header
+{
+    padding-left:0;
+    min-height:90px;
+}
+#toputil
+{
+    float:none;
+    width:455px;
+    text-align:right;
+    margin-top:20px;
+    
+}
+#toputil .nav-collapse .nav
+{
+
+    float:right;   
+}
+
+#nav_search
+{
+   width: 210px;
+    height: 20px;
+}
+#page
+{
+     width:1170px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px #AAA;
+    margin: 0 auto;
+    display: table;
+    max-width:1170px;
+    border:1px solid #EEEEEE;
+}
+#content
+{
+    width:100%;
+}
+.toptasksbox .span6
+{
+    margin-top:20px;
+}
+.iewrapper
+{
+    padding:5px;
+    margin:0;
+}
+.collapse
+{
+   display:table;
+}
+.navbar-toggle
+{
+    display:none;
+}
+.pagetoptasks_item_text
+{
+
+   padding:0;
+       padding-left:10px;
+
+}
+#toputilnav
+{
+    margin-top:20px;
+}
+#nav_searchform_small
+{
+    display:none;
+}
+.calllisthead,.functiontext_yourcalls{
+
+    font-size:medium;
+
+}
+#autolocate
+{
+    display:none;
+}
+@media (max-width: 1200px)
+{
+    .hometoptaskitem, .hometoptaskitemind
+{
+    width:80%;
+    display:table;
+    
+}
+ .hometoptaskitemind
+ {
+     float:left;
+ }
+    
+}
+
+
+
+
+
+
+
+

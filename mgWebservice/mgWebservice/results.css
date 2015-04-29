@@ -1,0 +1,124 @@
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0px;
+}
+.count
+{
+    padding-top:0;
+    width:100%;
+}
+#pageresult .container
+{
+    max-width:100%;
+}
+.results
+{
+    height:820px;
+}
+.headturnout {
+    float: right;
+    font-size: 100%;
+    padding-top: 8px;
+}
+
+.votesheaderrow {
+    font-size: medium;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+}
+
+#content {
+    margin-bottom: 30px;
+}
+
+.result, .partyrow {
+    padding: 10px 0 10px 0;
+    margin: 20px 0 20px 0;
+    box-shadow: 5px 5px 5px #CCCCCC;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.result {
+    margin: 10px 0 10px 0;
+}
+
+.newward, .partyrow {
+    border-top: 2px solid #EEEEEE;
+    margin-top: 30px;
+}
+
+.name, .partyrow, .party, .elected, .totalseats, .totalvotes {
+    font-size: x-large;
+}
+
+.ward, .name, .party, .elected {
+    font-size: 120%;
+}
+
+.votes {
+    padding-top: 5px;
+}
+
+.visible-xs {
+    float: left;
+}
+
+.infobarhead, .infobarbox {
+    font-size: x-large;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    border:solid 1px #CCCCCC;
+    height:55px;
+
+}
+
+
+.infobarhead  {
+    font-size: large;
+    margin-bottom:10px;
+     height:47px;
+      text-align:center;
+}
+
+.bar {
+    margin: 0;
+}
+.partyname
+{
+    width:55px;
+    display:table;
+    float:left;
+    margin-left:10px;
+}
+.partyfigure
+{
+    float:right;
+    width:30px;
+    margin-right:10px;
+    text-align:right;
+}
+.headlinktext
+{
+    margin-top:15px;
+    margin-left:10px;
+    font-size:xx-large;
+    color:#DDDDDD;
+    float:left;
+}
+.headlinkURL
+{
+    color:#FFFFFF;
+}
+#footer{
+    padding-top:0;
+}
+
+
+
